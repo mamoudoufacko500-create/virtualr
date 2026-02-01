@@ -1,27 +1,25 @@
-import  Workflow  from "./Composants/Workflow"
-import FeatureSection from "./Composants/FeatureSection"
-import HeroSection from "./Composants/HeroSection"
-import Navbar from "./Composants/Navbar"
-import Pricing from "./Composants/Pricing"
-import Testimonials from "./Composants/Testimonials"
-import Footer from "./Composants/Footer"
-
-
+import Workflow from "./Composants/Workflow";
+import FeatureSection from "./Composants/FeatureSection";
+import HeroSection from "./Composants/HeroSection";
+import Navbar from "./Composants/Navbar";
+import Pricing from "./Composants/Pricing";
+import Testimonials from "./Composants/Testimonials";
+import Footer from "./Composants/Footer";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
-       <HeroSection />  
-       <FeatureSection />
+        <HeroSection />
+        <FeatureSection />
         <Workflow />
-        <Pricing/>
+        <Pricing />
         <Testimonials />
-        <Footer/>
+        <Footer />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
