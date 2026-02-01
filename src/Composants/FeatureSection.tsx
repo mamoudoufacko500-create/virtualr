@@ -1,5 +1,5 @@
 import { features } from "../Constantes";
-import React from "react";
+
 
 const FeatureSection = () => {
   return (

@@ -1,6 +1,6 @@
-import React from "react";
+
 import { pricingOptions } from "../Constantes";
-import { features } from "../Constantes";
+
 import { CheckCircle2 } from "lucide-react";
 
 const Pricing = () => {
